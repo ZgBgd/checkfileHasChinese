@@ -1,0 +1,24 @@
+{
+  "name": "lzg-clint",
+  "version": "1.0.9",
+  "description": "检验提交的文件内是否含有中文",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "clint":"index.js"
+  },
+  "keywords": [
+    "chinese",
+    "check"
+  ],
+  "author": "lizhigao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/parser": "^7.16.4",
+    "@babel/traverse": "^7.16.3",
+    "optionator": "^0.9.1"
+  }
+}
